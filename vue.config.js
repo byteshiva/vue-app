@@ -3,7 +3,7 @@ const express = require('express');
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-app/'
+    ? '/'
     : '/',
   configureWebpack: {
     devServer: {
